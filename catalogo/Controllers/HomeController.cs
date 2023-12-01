@@ -1,4 +1,4 @@
-﻿using catalogo.Models;
+using catalogo.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -18,7 +18,7 @@ namespace catalogo.Controllers
             return View();
         }
 
-        public IActionResult Cadastro()
+        public IActionResult Privacy()
         {
             return View();
         }

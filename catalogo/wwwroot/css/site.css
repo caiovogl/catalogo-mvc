@@ -1,54 +1,55 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-.navbar-nav{
-    display:flex;
-    justify-content:space-between;
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-#jogos{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-
+#jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width:900px;
+    margin:auto;
 }
 
-.item{
-    background-color:lightgray;
-    width:250px;
-    text-align:center;
-    height:450px;
-    margin:50px 0px;
+.item {
+    background-color: lightgray;
+    width: 250px;
+    text-align: center;
+    height: 450px;
+    margin: 50px 0px;
 }
 
-.item img{
-    width:250px;
-    height:300px;
-}
+    .item img {
+        width: 250px;
+        height: 300px;
+    }
 
-.item a{
-    text-decoration:none;
-    color:black;
-    padding:5px;
-    border:1px solid black;
-}
+    .item a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        border: 1px solid black;
+    }
 
-.item a:hover{
-    background-color: white;
-}
+        .item a:hover {
+            background-color: white;
+        }
