@@ -26,7 +26,7 @@ namespace catalogo.Controllers
         {
             await _contexto.Cadastro.AddAsync(cadastro);
             await _contexto.SaveChangesAsync();
-            return RedirectToAction("Index", "Home", new { area = "" });
+            return RedirectToAction("Index", "Cadastro", new { area = "" });
         }
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
